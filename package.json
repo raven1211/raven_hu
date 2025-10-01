@@ -1,0 +1,35 @@
+{
+  "name": "raven-hu-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website for Ruiwen (Raven) HU",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required for static site'",
+    "serve": "python3 -m http.server 3000",
+    "open": "open http://localhost:3000"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "resume",
+    "javascript",
+    "html",
+    "css",
+    "responsive"
+  ],
+  "author": "Ruiwen (Raven) HU",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raven-hu/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raven-hu/portfolio/issues"
+  },
+  "homepage": "https://raven-hu.github.io/portfolio"
+}
