@@ -52,7 +52,14 @@
       ]
     },
     {
-      "source": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "text/css|application/javascript|image/.*|font/.*"
+        }
+      ],
       "headers": [
         {
           "key": "Cache-Control",
